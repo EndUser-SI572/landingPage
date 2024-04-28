@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .color-acento{
-    color: #064789;
+    color: #338E47;
 }
 body{
     font-family: 'RerossRectagular', 'seans-serif';
@@ -24,10 +24,10 @@ button{
     border: 1px solid rgba(0,0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0.5);
     color: #EBF2FA;
-    background-color: #064789;
+    background-color: #338E47;
 }
 button:hover{
-    background-color:  rgb(57, 104, 143);
+    background-color:  #338E47;
 }
 
 .container{
@@ -35,13 +35,13 @@ button:hover{
     margin: auto;
 }
 header{
-    background-color: #002C3E;
+    background-color: #338E47;
 }
 header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: white;
+    color: #FF8524;
     font-size: 1.6em;
 }
 header .container{
@@ -50,7 +50,7 @@ header .container{
     align-items: center;
 }
 header .container img{
-    width: 100px;
+    height: 45px;
     margin-top: 10px;
 }
 header nav{
@@ -64,11 +64,11 @@ header a{
     padding: 5px 15px;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: #338E47;
     border-radius: 3px;
 }
 header a:hover{
-    background-color: rgb(52, 148, 226);
+    background-color: #338E47;
 }
 
 #home{
@@ -78,7 +78,7 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 50vh;
-    color:#F7F8F3;
+    color:#AFF1FF;
 
     background-image: linear-gradient(
             0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
@@ -96,15 +96,15 @@ header a:hover{
 }
 
 #category{
-    background-color: #EBF2FA;
-    color: #EBF2FA;
+    background-color: #AFF1FF;
+    color: #AFF1FF;
     text-align: center;
 }
 #category .container{
     padding: 30px 10px;
 }
 #category h2{
-    color: rgb(52, 148, 226);
+    color: #338E47;
 }
 #category p{
     display: none;
@@ -144,7 +144,7 @@ header a:hover{
 }
 
 .space{
-    background-color: white;
+    background-color: AFF1FF;
     height: 40px;
     width: 100vw;
 }
@@ -153,7 +153,7 @@ header a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #EBF2FA;
+    background-color: #AFF1FF;
 }
 .planes .container p{
     color: black;
@@ -162,7 +162,7 @@ header a:hover{
 }
 .toggle-buttons{
     font-size: 20px;
-    background-color: #0267CD;
+    background-color: #338E47;
     height: 60px;
     width: 250px;
     display: flex;
@@ -182,7 +182,7 @@ header a:hover{
     font-size: 1.1rem;
 }
 .toggle-buttons button:hover{
-    background-color: whitesmoke;
+    background-color: #AFF1FF;
 }
 
 .content {
@@ -195,7 +195,7 @@ header a:hover{
 }
 
 .card{
-    background-color: #F7F8F3;
+    background-color: #AFF1FF;
     border-radius: 10px;
     border:1px solid black;
     width: 80%;
@@ -210,7 +210,7 @@ header a:hover{
     font-size: 1.3rem;
 }
 .card button{
-    background-color: #004967;
+    background-color: #338E47;
     box-shadow: none;
     font-size: 1rem;
     width: 90%;
@@ -218,7 +218,7 @@ header a:hover{
     margin-top: 5px;
 }
 .card button:hover{
-    background-color: #013c54;
+    background-color: #338E47;
 }
 .card ul{
     width: 90%;
@@ -240,11 +240,11 @@ header a:hover{
 
 
 footer{
-    background-color: #002C3E;
+    background-color: #338E47;
 }
 footer p{
     margin: 0;
-    color: white;
+    color: #AFF1FF;
     padding-top: 10px;
     font-size: 1em;
 }
@@ -258,13 +258,12 @@ footer .container{
 
 footer .container img{
     height: 43px;
-    width: 100px;
     margin: 15px;
 }
 
 
 footer .icons{
-    color:#DBDBDB;
+    color:#AFF1FF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,7 +316,7 @@ footer .icons ion-icon{
         margin-top: 0px;
     }
     #somos .img-container{
-        background-image: url("images/logo.jpg");
+        background-image: url("images/logo.png");
 
         background-size: cover;
         background-position: center center;
@@ -344,7 +343,7 @@ footer .icons ion-icon{
 
     #category h3{
         margin-top: 0;
-        color:#EBF2FA;
+        color:#AFF1FF;
         font-weight: bold;
         justify-content: center;
     }
@@ -367,4 +366,54 @@ footer .icons ion-icon{
         justify-content: space-evenly;
     }
 
+}
+
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.centered-content a {
+    margin-top: 20px;
+}
+
+.download-button {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px 5px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    color: black;
+    background: linear-gradient(135deg, #AFF1FF, #AFF1FF);
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+    display: inline-block;
+    position: relative;
+}
+
+.download-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: inherit;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.download-button:hover {
+    background: linear-gradient(135deg, #338E47, #AFF1FF);
+    transform: scale(1.05);
+}
+
+.download-button:hover::before {
+    opacity: 1;
 }
